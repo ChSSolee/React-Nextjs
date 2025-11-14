@@ -1,0 +1,11 @@
+__turbopack_load_page_chunks__("/", [
+  "static/chunks/2065f_next_dist_compiled_200c06b6._.js",
+  "static/chunks/2065f_next_dist_shared_lib_4b72057f._.js",
+  "static/chunks/2065f_next_dist_client_c087e41b._.js",
+  "static/chunks/2065f_next_dist_f9fe209d._.js",
+  "static/chunks/2065f_react-dom_64b69365._.js",
+  "static/chunks/2065f_9932976f._.js",
+  "static/chunks/[root-of-the-server]__c9ed1a8a._.js",
+  "static/chunks/OneDrive_Desktop_Sol_JavaScript_React_frontend_pages_index_2da965e7._.js",
+  "static/chunks/turbopack-OneDrive_Desktop_Sol_JavaScript_React_frontend_pages_index_b3fd47df._.js"
+])

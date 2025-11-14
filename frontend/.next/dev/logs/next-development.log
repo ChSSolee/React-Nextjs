@@ -1,0 +1,5 @@
+[00:00:00.976] Server  LOG      ✓ Ready in 648ms
+[00:00:05.055] Server  WARN     ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:01:20.305] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./OneDrive/Desktop/Sol/JavaScript/React/frontend/pages/index.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:20.305] Browser LOG     Refreshing page data due to server-side change

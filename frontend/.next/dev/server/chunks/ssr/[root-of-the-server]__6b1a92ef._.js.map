@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/user/OneDrive/Desktop/Sol/JavaScript/React/frontend/pages/index.js"],"sourcesContent":["import React, { useState, useEffect } from 'react';\r\n\r\nexport const BACKEND_URL = 'http://127.0.0.1:8000/';\r\n\r\nconst Home = () => {\r\n  const [data, setData] = useState('');\r\n\r\n  useEffect(() => {\r\n    fetch(`${BACKEND_URL}api/hello`)\r\n      .then((response) => response.json())\r\n      .then((data) => setData(data));\r\n  }, []);\r\n\r\n  return (\r\n    <div>\r\n      <h1>Welcome to Next.js!</h1>\r\n      <p>{data}</p>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Home;"],"names":[],"mappings":";;;;;;;AAAA;;;AAEO,MAAM,cAAc;AAE3B,MAAM,OAAO;IACX,MAAM,CAAC,MAAM,QAAQ,GAAG,IAAA,+GAAQ,EAAC;IAEjC,IAAA,gHAAS,EAAC;QACR,MAAM,GAAG,YAAY,SAAS,CAAC,EAC5B,IAAI,CAAC,CAAC,WAAa,SAAS,IAAI,IAChC,IAAI,CAAC,CAAC,OAAS,QAAQ;IAC5B,GAAG,EAAE;IAEL,qBACE,qKAAC;;0BACC,qKAAC;0BAAG;;;;;;0BACJ,qKAAC;0BAAG;;;;;;;;;;;;AAGV;uCAEe"}}]
+}
