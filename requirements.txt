@@ -1,0 +1,8 @@
+django
+djangorestframework 
+djangorestframework-simplejwt
+django-rest-framework-docs
+pandas
+numpy
+pymysql
+sqlalchemy
