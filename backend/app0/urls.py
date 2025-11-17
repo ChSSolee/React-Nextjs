@@ -1,6 +1,6 @@
-from django.urls import path
-from . import views
+from django.urls import path, include
+from .views import create_book
 
 urlpatterns = [
-    path('hello/', views.hello_world),
+    path('create/', create_book, name='create_book'),
 ]
